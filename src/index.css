@@ -1,0 +1,19 @@
+
+form{
+    width: 800px;
+    margin: 50px  auto;
+}
+@media screen and (max-width:800px){
+    form{
+        width: 90%;
+       
+    }
+}
+.skill-container{
+    cursor: pointer;
+}
+
+.skill-container img:hover{
+   transform: scale(1.1);
+}
+
