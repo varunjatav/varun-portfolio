@@ -19,7 +19,7 @@ const projects = [
     content:
       "Black Pearl is an Ecommerce Website where you can find a variety of jewelleries of Gold, Platinum, Solitiare, Diamond, Silver, etc and more",
     github: "https://github.com/nikhildeora/black-pearl",
-    netlify: "https://startling-tulumba-8a76b2.netlify.app/",
+    netlify: "https://6647487847e656bbf09881ab--lucky-flan-117f5e.netlify.app/",
     techStack: [
       "/html.png",
       "/css.png",
@@ -50,19 +50,21 @@ const Projects = () => {
 
       <div className="row row-cols-1 align-items-stretch g-4 mt-5">
         {projects.map((single) => (
-          <div key={single.id} className="col" style={{ height: "500px" }}>
+          <div key={single.id} className="col mb-5">
             <div className="row row-cols-1 row-cols-lg-2">
               <div className="col">
                 <img
                   src={single.img}
                   alt={single.title}
-                  className="w-100 rounded-s-2"
+                  className="rounded-s-2"
+                  width="100%"
+                  height="280px"
                 />
               </div>
               <div className="col text-center">
                 <h1 className="fs-2">{single.title}</h1>
 
-                <p className="fst-italic fs-5">{single.content}</p>
+                <p className="fst-italic fs-6 fs-md-5">{single.content}</p>
                 <div className="d-flex gap-2 justify-content-center">
                   <a
                     href={single.github}

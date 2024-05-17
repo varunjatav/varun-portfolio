@@ -1,14 +1,8 @@
+.main{
+    width: 90%;
+    margin: auto;
+}
 
-form{
-    width: 800px;
-    margin: 50px  auto;
-}
-@media screen and (max-width:800px){
-    form{
-        width: 90%;
-       
-    }
-}
 .skill-container{
     cursor: pointer;
 }
@@ -16,4 +10,16 @@ form{
 .skill-container img:hover{
    transform: scale(1.1);
 }
-
+@media screen and (max-width: 400px){
+    .main{
+        width: 100%;
+    }
+    .personal-photo{
+        width: 300px;
+        height: 300px;
+    }
+   .skill-img{
+    width: 100px;
+    height: 100px;
+   }
+}

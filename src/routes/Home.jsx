@@ -6,11 +6,11 @@ import Certificates from "./Certificates.jsx";
 
 const Home = () => {
   return (
-    <main  style={{ width:"90%", margin: "auto"}}>
+    <main className="main">
       <div className="py-5 my-5 text-center row">
         <div className="col-12 col-md-6" >
         <img
-          className="d-block mx-auto "
+          className="d-block mx-auto personal-photo"
           src="/personal_photo.jpg"
           alt="varun jatav photo"
           width="350px"
