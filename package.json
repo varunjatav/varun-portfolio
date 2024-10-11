@@ -2,7 +2,7 @@
   "name": "varun-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/varunjatav.github.io/varun-portfolio",
+  "homepage": "https://varunjatav.github.io/varun-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
