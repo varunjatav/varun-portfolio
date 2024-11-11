@@ -11,7 +11,7 @@ const Home = () => {
         <div className="col-12 col-md-6" >
         <img
           className="d-block mx-auto personal-photo"
-          src="/personal_photo.jpg"
+          src="./personal_photo.jpg"
           alt="varun jatav photo"
           width="350px"
           height="350px"

@@ -1,13 +1,25 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import {
+  Link as ScrollLink,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 const Header = () => {
-  const [active, setActive] = useState("Home");
   return (
-    <header className="d-flex flex-wrap justify-content-center px-3 py-3 mb-4 border-bottom">
-      <a
-        href="#"
-        className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none gap-3"
+    <header className="fixed w-full d-flex flex-wrap justify-content-center px-3 py-3 mb-4 border-bottom">
+      <ScrollLink
+        activeClass="active"
+        to=""
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none gap-3 cursor-pointer"
       >
         <img
           src="https://cdn-icons-png.flaticon.com/512/4771/4771419.png"
@@ -15,28 +27,63 @@ const Header = () => {
           width="50px"
         />
         <span className="fs-4">Portfolio</span>
-      </a>
+      </ScrollLink>
 
       <ul className="nav nav-pills">
         <li className="nav-item">
-          <a href="#" className="nav-link" aria-current="page">
+          <ScrollLink
+            activeClass="active"
+            to=""
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link cursor-pointer"
+            aria-current="page"
+          >
             Home
-          </a>
+          </ScrollLink>
         </li>
         <li className="nav-item">
-          <a href="#skills" className="nav-link">
+          <ScrollLink
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link cursor-pointer"
+          >
             Skills
-          </a>
+          </ScrollLink>
         </li>
         <li className="nav-item">
-          <a href="#projects" className="nav-link">
+          <ScrollLink
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link cursor-pointer"
+            aria-current="page"
+          >
             Projects
-          </a>
+          </ScrollLink>
         </li>
-        <li className="nav-item">
-          <a href="#certificates" className="nav-link">
+        <li className="nav-item cursor-pointer">
+          <ScrollLink
+            activeClass="active"
+            to="certificates"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link cursor-pointer"
+            aria-current="page"
+          >
             Certificates
-          </a>
+          </ScrollLink>
         </li>
       </ul>
     </header>

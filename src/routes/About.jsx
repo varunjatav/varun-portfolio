@@ -20,11 +20,12 @@ const About = () => {
       </div>
       <div>
         <p className="lead mb-4">
-          Experienced frontend developer proficient in HTML, CSS, and
-          JavaScript, with a solid foundation in React, Redux, Redux Toolkit,
-          Bootstrap, and Tailwind CSS. Backed by 3 months of hands-on experience
-          in PHP, JavaScript, and WordPress development, I bring a versatile
-          skill set to craft engaging and dynamic web experiences
+          Experienced frontend developer proficient in HTML, CSS, and JavaScript,
+          with a solid foundation in React, Redux, Redux Toolkit, Bootstrap, and
+          Tailwind CSS. With 2 years of MERN stack experience and 3 months of
+          hands-on experience in PHP, JavaScript, and WordPress development, I
+          bring a versatile skill set to craft engaging and dynamic web
+          experiences
         </p>
         <div className="d-flex justify-content-center mb-5 d-md-block">
           <a
