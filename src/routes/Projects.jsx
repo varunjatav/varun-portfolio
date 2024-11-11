@@ -36,9 +36,9 @@ const projects = [
     title: "Bliss Mart",
     content:
       "An Mern Stack Ecommerce Application for Clothing and Accessories of men and women. The User can Signup and Login to App and can store the products to their carts.",
-    github: "https://github.com/varunjatav/weather-app",
+    github: "https://github.com/varunjatav/bliss-mart-frontend",
     netlify:
-      "https://658ea8986ca12d9c5896be81--incredible-haupia-446af4.netlify.app/",
+      "https://bliss-mart.netlify.app/",
     techStack: ["./html.png", "./css.png", "./react.png", "./tailwind.png", "./nodeJs.png", "./express.webp" ,"./Mongodb.png" ],
   },
  
@@ -73,6 +73,14 @@ const Projects = () => {
                     target="_blank"
                   >
                     <FaGithub /> Github
+                  </a>
+                  <a
+                    href={"https://github.com/varunjatav/bliss-mart-backend"}
+                    type="button"
+                    className="btn btn-dark"
+                    target="_blank"
+                  >
+                    <FaGithub /> Github Backend
                   </a>
                   <a
                     href={single.netlify}
